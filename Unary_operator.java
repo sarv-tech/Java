@@ -9,8 +9,7 @@
 Pre Increment:- ++a                        |                   Pre Decrement:- --a
                                            |
 pre ka matlab hai pehle                    |                  1. Value change 
-1. sabse pehle value change hogi           |
-2. Value use                               |
+1. sabse pehle value change hogi           |                  2. Value use
 2. uske baad value use hogi                |
 --------------------------------------------------------------------------------------------                                             |
 Post Increment:- a++                       |                  Post Decrement:- a--
@@ -52,4 +51,5 @@ public class Unary_operator{
         System.out.println(h);
 
     }
+
 }
