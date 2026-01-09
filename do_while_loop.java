@@ -7,7 +7,7 @@ do {
 do something
 
 
-}while(condition);
+} while(condition);
 
 */
 
@@ -27,3 +27,4 @@ public class do_while_loop {
         } while (count <= 10);
     }
 }
+
