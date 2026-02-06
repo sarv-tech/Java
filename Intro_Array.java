@@ -19,4 +19,5 @@ Continguous memory mein store hote hai ----> ek ke baad ek ke baad lagadar eleme
 
 Note:- Here char size is taken as 1 byte for simplicity. java char takes up 2 bytes in memory.
     
+Arrays store their elements in contiguous memory locations within the RAM. This means that all elements of the array are placed right next to each other in a single, continuous block of memory addresses. 
 */
