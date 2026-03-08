@@ -2,15 +2,49 @@
 
 // Strings => WORDS, PARAGRAPHS, SENTENCES
 
+ // Strings are IMMUTABLE
+
+
+import java.util.*;
 
 public class whatIsStrings {
 
+    public static void printLetters(String str) {
+
+        for(int i = 0; i < str.length(); i++) {
+
+            System.out.print(str.charAt(i) + " ");
+        }
+
+        System.out.println();
+        
+    }
     public static void main(String[] args) {
 
         char arr[] = {'a', 'b', 'c', 'd'};
-        String str = "abcd";
-        String str2 = new String("xyz");
+        String str = "Sarvesh Pingale";
+        String str2 = new String("xyz@123");
 
-        // Strings are IMMUTABLE
+        Scanner sc = new Scanner(System.in);
+        String name;
+
+        System.out.print("ENTER NAME: ");
+        name = sc.nextLine();
+
+        System.out.println(name);
+
+
+        String fullName = "Sarvesh Pingale";
+        System.out.println(fullName.length());    // to find the length of string
+
+        // Concatenation of String
+        String firstName = "Sarvesh";
+        String lastName = "Pingale";
+
+        String wholeName = firstName + " " + lastName;
+        System.out.println(wholeName + " is this");
+
+        printLetters(str);
+
     }
 }
