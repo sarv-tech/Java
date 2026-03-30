@@ -2,10 +2,13 @@
 
 public class compareString {
     
+    @SuppressWarnings("StringEquality")
     public static void main(String[] args) {
 
         String s1 = "Tony";
         String s2 = "Tony";
+        
+        @SuppressWarnings("RedundantStringConstructorCall")
         String s3 = new String("Tony");
 
         if(s1 == s2) {
